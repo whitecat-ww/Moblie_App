@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\sostrackerapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\sostrackerapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\sostrackerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\sostrackerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\triplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\triplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|c:\\users\\gohki\\desktop\\sostrackerapp\\sostrackerapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DFC80DEC-8A8D-4EFD-ABEE-84D67982294D}|SosTrackerApp\\SosTrackerApp.csproj|solutionrelative:sostrackerapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SosTrackerApp",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\SosTrackerApp.csproj",
+              "RelativeDocumentMoniker": "SosTrackerApp\\SosTrackerApp.csproj",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\SosTrackerApp.csproj",
+              "RelativeToolTip": "SosTrackerApp\\SosTrackerApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-29T14:19:49.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\App.xaml",
+              "RelativeDocumentMoniker": "SosTrackerApp\\App.xaml",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\App.xaml",
+              "RelativeToolTip": "SosTrackerApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-29T12:29:21.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "SosTrackerApp\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "SosTrackerApp\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T12:22:06.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SosTrackerApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\AppShell.xaml",
+              "RelativeToolTip": "SosTrackerApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-29T06:32:28.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "SosTrackerApp\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\DatabaseService.cs",
+              "RelativeToolTip": "SosTrackerApp\\DatabaseService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T06:20:40.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TripLog.cs",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\TripLog.cs",
+              "RelativeDocumentMoniker": "SosTrackerApp\\TripLog.cs",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\TripLog.cs",
+              "RelativeToolTip": "SosTrackerApp\\TripLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T06:20:40.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "SosTrackerApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "SosTrackerApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T06:12:04.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SosTrackerApp.csproj",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\SosTrackerApp.csproj",
+              "RelativeDocumentMoniker": "SosTrackerApp\\SosTrackerApp.csproj",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\SosTrackerApp.csproj",
+              "RelativeToolTip": "SosTrackerApp\\SosTrackerApp.csproj",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-29T06:25:25.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SosTrackerApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\MauiProgram.cs",
+              "RelativeToolTip": "SosTrackerApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T06:05:20.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SosTrackerApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\MainPage.xaml",
+              "RelativeToolTip": "SosTrackerApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-29T06:05:01.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "SosTrackerApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\gohki\\Desktop\\SosTrackerApp\\SosTrackerApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "SosTrackerApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-12-29T06:27:23.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

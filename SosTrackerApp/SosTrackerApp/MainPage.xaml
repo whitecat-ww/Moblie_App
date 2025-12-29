@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SosTrackerApp.MainPage"
+             BackgroundColor="#1c1c1e">
+
+    <Grid RowDefinitions="Auto, *, Auto" Padding="20">
+
+        <Label Grid.Row="0" Text="SOS 救援信标" 
+               FontSize="32" FontAttributes="Bold" 
+               HorizontalOptions="Center" TextColor="Red" 
+               Margin="0,20,0,20"/>
+
+        <Grid Grid.Row="1" RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*,*" RowSpacing="20" VerticalOptions="Center">
+
+            <Frame Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="#2c2c2e" CornerRadius="10" BorderColor="Gray">
+                <StackLayout>
+                    <Label Text="网络连接状态" TextColor="LightGray" FontSize="14"/>
+                    <Label x:Name="StatusLabel" Text="正在检测..." FontSize="24" TextColor="White" FontAttributes="Bold"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="#2c2c2e" CornerRadius="10" Margin="0,0,5,0" BorderColor="Gray">
+                <StackLayout>
+                    <Label Text="纬度 (Lat)" TextColor="LightGray" FontSize="12"/>
+                    <Label x:Name="LatLabel" Text="--" FontSize="18" TextColor="White"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="#2c2c2e" CornerRadius="10" Margin="5,0,0,0" BorderColor="Gray">
+                <StackLayout>
+                    <Label Text="经度 (Lng)" TextColor="LightGray" FontSize="12"/>
+                    <Label x:Name="LongLabel" Text="--" FontSize="18" TextColor="White"/>
+                </StackLayout>
+            </Frame>
+
+            <Entry Grid.Row="2" Grid.ColumnSpan="2" x:Name="TripIdEntry" 
+                   Placeholder="请输入救援任务 ID (如: SOS-001)" 
+                   TextColor="Black" BackgroundColor="White" 
+                   Margin="0,30,0,0" HeightRequest="50"/>
+        </Grid>
+
+        <Button Grid.Row="2" Text="保存并上传日志" Clicked="OnSaveClicked" 
+                BackgroundColor="#D32F2F" TextColor="White" 
+                CornerRadius="25" HeightRequest="60" 
+                FontAttributes="Bold" FontSize="18"/>
+
+    </Grid>
+</ContentPage>
