@@ -9,6 +9,7 @@ namespace SosTrackerApp
         public MainPage()
         {
             InitializeComponent();
+            // 页面加载时自动获取位置和网络
             this.Loaded += OnPageLoaded;
         }
 
@@ -21,14 +22,17 @@ namespace SosTrackerApp
         {
             try
             {
-                // 获取网络
+                // 1. Get Network Status
                 NetworkAccess accessType = Connectivity.Current.NetworkAccess;
                 bool isConnected = accessType == NetworkAccess.Internet;
-                StatusLabel.Text = isConnected ? "在线 (Online)" : "离线 (Offline)";
+                StatusLabel.Text = isConnected ? "Online" : "Offline";
                 StatusLabel.TextColor = isConnected ? Colors.Green : Colors.Red;
 
-                // 获取位置
+                // 2. Get Geolocation
+                // Try to get last known location first (faster)
                 var location = await Geolocation.Default.GetLastKnownLocationAsync();
+
+                // If null, request real-time location
                 if (location == null)
                 {
                     location = await Geolocation.Default.GetLocationAsync(new GeolocationRequest
@@ -43,11 +47,17 @@ namespace SosTrackerApp
                     LatLabel.Text = location.Latitude.ToString("F5");
                     LongLabel.Text = location.Longitude.ToString("F5");
                 }
+                else
+                {
+                    LatLabel.Text = "Unknown";
+                    LongLabel.Text = "Unknown";
+                }
             }
             catch (Exception ex)
             {
-                // 模拟器请确保开启位置权限
+                // Fallback for emulator issues
                 LatLabel.Text = "Error";
+                await DisplayAlert("Location Error", "Please ensure GPS is set in Emulator Extended Controls.", "OK");
             }
         }
 
@@ -55,19 +65,19 @@ namespace SosTrackerApp
         {
             string inputId = TripIdEntry.Text;
 
-            // 验证逻辑
+            // --- Validation Logic (Q2 Requirement) ---
             if (string.IsNullOrWhiteSpace(inputId))
             {
-                await DisplayAlert("错误", "ID 不能为空", "OK");
+                await DisplayAlert("Validation Error", "Trip ID cannot be empty.", "OK");
                 return;
             }
             if (inputId.Length < 3)
             {
-                await DisplayAlert("错误", "ID 长度需大于3位", "OK");
+                await DisplayAlert("Validation Error", "Trip ID must be at least 3 characters.", "OK");
                 return;
             }
 
-            // 保存逻辑
+            // --- Save to Database ---
             try
             {
                 var db = new DatabaseService();
@@ -79,12 +89,14 @@ namespace SosTrackerApp
                 };
 
                 await db.AddLogAsync(log);
-                await DisplayAlert("成功", "已保存", "OK");
+                await DisplayAlert("Success", "Trip log saved securely to local database.", "OK");
+
+                // Clear input
                 TripIdEntry.Text = "";
             }
             catch (Exception ex)
             {
-                await DisplayAlert("失败", ex.Message, "OK");
+                await DisplayAlert("Database Error", ex.Message, "OK");
             }
         }
     }
